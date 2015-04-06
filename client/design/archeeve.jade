@@ -6,39 +6,100 @@ html
     title Design
     link(rel='stylesheet', href=isProd ? '/index.min.css' : '/index.css')
     link(rel='shortcut icon', href='/favicon.ico')
+    link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css')
   body#archeeve
     
     #top
-      #topbackground
-        img(src='/assets/archeeve/background2.jpg')
+      //- #topbackground
+      //-   img(src='/assets/archeeve/background2.jpg')
+      #overlay
+        h1 THE MOST USEFUL APP TO ORGANISE YOUR BOOKMARKS
+        //- span GET IT FOR MAC
+        //- ul
+        //-   li: 
 
-      #logo
-        img(src='/assets/archeeve/logo.png')
-
-      #app
-        img(src='/assets/archeeve/app.png')
-            
-      #onepagelove
-        img(src='/assets/archeeve/one-page-love-award-right.png')
+        #logo
+          img(src='/assets/archeeve/logo.png')
+        #app
+          img(src='/assets/archeeve/app.png')
+        #onepagelove
+          img(src='/assets/archeeve/one-page-love-award-right.png')
         
     #features
+      h2 FEATURES
+      .frow
+        .fbox
+          ul
+            li
+              i.fa.fa-search.fa-2x
+              h4 SEARCH
+              p Searh bookmarks by title or description
+            li
+              i.fa.fa-photo.fa-2x
+              h4 SCREENSHOTS
+              p Archeeve automatically generates screenshots of each bookmark
+      .frow
+        .fbox
+          ul
+            li
+              i.fa.fa-globe.fa-2x
+              h4 ORGANIZE
+              p Organise bookmarks with collections and tags
+            li
+              i.fa.fa-globe.fa-2x
+              h4 MULTILINGUAL
+              p Archeeve speaks in your language*
+      .frow
+        .fbox
+          ul
+            li
+              i.fa.fa-star.fa-2x
+              h4 FAVORITES
+              p Find favorites bookmarks with ease
+            li
+              i.fa.fa-globe.fa-2x
+              h4 SYNC
+              p Sync your bookmarks with ease
+      .frow
+        .fbox
+          ul
+            li
+              i.fa.fa-th-large.fa-2x
+              h4 GRID/LIST
+              p Switch between grid or list view
+            li
+              i.fa.fa-globe.fa-2x
+              h4 IMPORT/EXPORT
+              p Import/Export of bookmark files
+
+
+
+
+
+
+          //- ul
+          //-   li: img(src='/assets/archeeve/archeeve1.png')
+          //-   li: img(src='/assets/archeeve/archeeve2.png')
+          //-   li: img(src='/assets/archeeve/archeeve3.png')
 
     #screenshots
-      #arch1
-        img(src='/assets/archeeve/archeeve1.png')
-      #arch2
-        img(src='/assets/archeeve/archeeve2.png')
-      #arch3
-        img(src='/assets/archeeve/archeeve3.png')
-      #arch4
-        img(src='/assets/archeeve/archeeve4.png')
-      #arch5
-        img(src='/assets/archeeve/archeeve5.png')
-      #arch6
-        img(src='/assets/archeeve/archeeve6.png')
-      #arch7
-        img(src='/assets/archeeve/archeeve7.png')
-      #arch8
-        img(src='/assets/archeeve/archeeve8.png')
-        
-    #bottom
+      h2 SCREENSHOTS
+      .srow
+        .sbox
+          ul
+            li: img(src='/assets/archeeve/archeeve1.png')
+            li: img(src='/assets/archeeve/archeeve2.png')
+            li: img(src='/assets/archeeve/archeeve3.png')
+      .srow
+        .sbox
+          ul
+            li: img(src='/assets/archeeve/archeeve4.png')
+            li: img(src='/assets/archeeve/archeeve5.png')
+            li: img(src='/assets/archeeve/archeeve6.png')
+      .srow
+        .sbox
+          ul
+          li: img(src='/assets/archeeve/archeeve7.png')
+          li: img(src='/assets/archeeve/archeeve8.png')
+    //-     
+    //- #bottom

@@ -1,11 +1,34 @@
 #archeeve {
 
+  @font-face {
+      font-family: bonveno;
+      src: url(/assets/archeeve/BonvenoCF-Light-webfont.woff);
+      // font-weight: bold;
+  }
+
   #top {
 
-    #topbackground img {
-      margin-top: -250px
+    background-image: url('/assets/archeeve/background2.jpg');
+    background-repeat: no-repeat;
+    min-height: 1690px;
+    margin-top: -250px;
+    width: 115%;
+    margin-left: -20px;
+
+    #overlay {
+      size: 100%;
+      background-color: rgba(52, 46, 46, 1);
     }
-    #logo img{
+
+    #overlay h1 {
+      position: absolute;
+      top: 300px;
+      left: 400px;
+      color: white;
+      font-family: "bonveno";
+    }
+
+    #logo img {
       // width: 300px;
       position: fixed;
       top: 40px;
@@ -22,66 +45,95 @@
     #app img{
       // width: 300px;
       position: absolute;
-      top: 700px;
+      top: 726px;
       left: 500px;
-
     }
   }
 
   #features {
-    // #featuresBackground
+    background-color: rgb(37,40,45);
+    width: 105%;
+    margin-left: -20px;
+    margin-top: -60px;
+    width: 115%;
+    min-height: 800px;
+    // margin-bottom: 100px;
+
   }
 
-  #screenshots
-    #arch1 img{
-      // width: 300px;
-      position: absolute;
-      top: 4000px;
-      left: 200px;
-    }
-    #arch2 img{
-      // width: 300px;
-      position: absolute;
-      top: 2000px;
-      left: 300px;
-    }
-    #arch3 img{
-      // width: 300px;
-      position: absolute;
-      top: 3000px;
-      left: 300px;
-    }
-    #arch4 img{
-      // width: 300px;
-      position: absolute;
-      top: 4000px;
-      left: 200px;
-    }
-    #arch5 img{
-      // width: 300px;
-      position: absolute;
-      top: 2000px;
-      left: 300px;
-    }
-    #arch6 img{
-      // width: 300px;
-      position: absolute;
-      top: 3000px;
-      left: 300px;
-    }
-    #arch7 img{
-      // width: 300px;
-      position: absolute;
-      top: 4000px;
-      left: 200px;
-    }
-    #arch8 img{
-      // width: 300px;
-      position: absolute;
-      top: 2000px;
-      left: 300px;
-    }
+  .frow {
+    margin-left: 120px;
+    // padding: 50px;
+  }
 
-  #bottom {}
+  .fbox {
+    float: left;
+    display: block;
+    margin-right: 1%;
+    width: 20%;
+    // margin-bottom: 100px;
+  }
 
+  .fbox li {
+    list-style: none;
+    color: white;
+    text-align: center;
+    font-family: "bonveno";
+
+  }
+
+  #features h2 {
+    position: relative;
+    top: 50px;
+    left: 800px;
+    color: white;
+    margin-top: -250px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    font-family: "bonveno";
+  }
+
+  #screenshots {
+    background-color: rgb(39, 42, 48);
+    margin-top: -100px;
+    width: 115%;
+    margin-left: -20px;
+    min-height: 1690px;
+  }
+
+  .srow {
+    margin-left: 130px;
+    // padding: 50px;
+  }
+
+  .sbox {
+    float: left;
+    display: block;
+    margin-right: 1%;
+    width: 25%;
+    margin-bottom: 10px;
+  }
+
+  .sbox img {
+    height: 380px;
+    width: 488px;
+  }
+
+  .sbox li {
+    list-style: none;
+  }
+
+  #screenshots h2 {
+    position: relative;
+    top: 120px;
+    left: 800px;
+    // bottom: 100px;
+    margin-bottom: 150px;
+    color: white;
+    font-family: "bonveno";
+
+  }
+
+//   #bottom {}
+//
 }
